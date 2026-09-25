@@ -17,7 +17,7 @@ flex-flow: row nowrap;
 justify-content: center;
 list-style-type: none;}
 
-header li {padding: 20px 20px; cursor: pointer;}
+header li {padding: 15px; cursor: pointer;}
 
 header li:hover {background-color: gray;}
 
@@ -73,6 +73,9 @@ margin: 5px 0px;
 border-radius: 5px;
 transition: width 0.3s ease, height 0.3s ease;}
 
+#divPai {margin: 0px -10px;
+padding-left: 10px;}
+
 .img {width: 200px;
 margin: 0px 10px 0px 0px;
 border-top-left-radius: 5px;
@@ -81,7 +84,7 @@ border-top-right-radius: 0px;
 border-bottom-right-radius: 0px;
 cursor: pointer;}
 
-.img:hover {width: 220px;}
+#projetos {display: grid;}
 
 #projetos div {display: flex;}
 #projetos h3 {margin: 10px 0px 20px 0px;}
@@ -92,3 +95,5 @@ margin-right: 10px;
 width: 70%;}
 
 article p {text-align: justify; margin-bottom: 5px;}
+
+#todosOsProjetos {display: grid;}
