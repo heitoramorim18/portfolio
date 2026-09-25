@@ -1,0 +1,12 @@
+@media screen and (min-width: 700px) and (max-width: 992px) {
+    
+
+    header ul {justify-content: space-evenly;}
+
+    header li {font-size: 15px; padding: 15px 15px;}
+
+    #apresentacao {text-align: center;}
+
+    #divPai {display: flex; 
+    justify-content: center;}
+}

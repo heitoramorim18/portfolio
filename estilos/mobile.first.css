@@ -8,12 +8,18 @@ top: 0;
 background-color: white;
 z-index: 1000;}
 
+header i {font-size: 20px;}
+
+i {font-size: 30px;}
+
 header ul {display: flex;
 flex-flow: row nowrap;
-justify-content: space-evenly;
+justify-content: center;
 list-style-type: none;}
 
-header li {padding: 20px 10px 10px 10px; cursor: pointer;}
+header li {padding: 20px 20px; cursor: pointer;}
+
+header li:hover {background-color: gray;}
 
 ul {margin-left: 10px; list-style-type: none;}
 li {padding: 10px 0px}
