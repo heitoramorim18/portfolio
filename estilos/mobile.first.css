@@ -6,20 +6,18 @@ header {border: 1px dashed black; /* background-color: aqua; */
 position: sticky;
 top: 0;
 background-color: white;
-z-index: 1000;}
+z-index: 1000;
+text-align: right;}
 
-header i {font-size: 20px;}
+header i {font-size: 20px;
+padding: 15px 20px;
+margin-right: 10px;
+cursor: pointer;
+transition: background-color 0.2s ease;}
+
+header i:hover {background-color: gray;}
 
 i {font-size: 30px;}
-
-header ul {display: flex;
-flex-flow: row nowrap;
-justify-content: center;
-list-style-type: none;}
-
-header li {padding: 15px; cursor: pointer;}
-
-header li:hover {background-color: gray;}
 
 ul {margin-left: 10px; list-style-type: none;}
 li {padding: 10px 0px}
@@ -39,11 +37,13 @@ width: 200px;
 height: 200px;
 object-fit: cover;
 border-radius: 50%;
+border: 1px dashed black;
 transition: width 0.3s ease, height 0.3s ease;}
 
 #profil:hover {width: 210px; height: 210px;}
 
 h1 {font-size: 25px;}
+
 #nome {margin-top: 30px;}
 
 h1, h2 {padding: 5px 0px;
@@ -55,15 +55,17 @@ section {margin: 20px 0px;
 padding: 10px;
 border: 1px dashed black;}
 
-#facul {width: 235px;
+.certificado {width: 235px;
 padding: 10px;
 border: 1px dashed black;
 border-radius: 5px;}
 
-#facul:hover {width: 240px;}
+.certificado:hover {width: 240px;}
 
 .tecnologia {padding: 5px;
 width: 93%;}
+
+.tecnologia:hover {width: 430px;}
 
 div {border: 1px dashed black;
 margin: 5px 0px;

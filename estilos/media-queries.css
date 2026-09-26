@@ -82,11 +82,14 @@
     top: 51px;
     height: calc(100vh - 120px + 7px);
     z-index: 1000;
-    margin-right: 5px;}
+    margin-right: 35px;}
 
     #formacao {grid-area: 1/2/1/3;
     margin-top: 0px;
     margin-right: 10px;
+    height: 200px;}
+
+    #skills {margin-top: 0px;
     height: 200px;}
 
     .tecnologia {width: 90%;}
@@ -95,11 +98,8 @@
 
     #divPai {display: grid;
     padding: 6px;
+    height: 148px;
     grid-template-columns: 1fr 1fr;}
-
-    #skills {margin-top: 0px;
-    height: 200px;
-    /*width: 94%;*/}
 
     #projetos {grid-area: 2/2/3/4}
 
