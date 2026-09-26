@@ -98,7 +98,9 @@
 
     #divPai {display: grid;
     padding: 6px;
-    height: 148px;
+    height: 150px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
     grid-template-columns: 1fr 1fr;}
 
     #projetos {grid-area: 2/2/3/4}
