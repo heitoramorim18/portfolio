@@ -9,10 +9,13 @@
 
     #apresentacao {text-align: center;}
 
-    #divPai {display: flex; 
+    #profil:hover {width: 210px; height: 210px;}
+
+    .divPai {display: flex; 
     padding-left: 0;
     justify-content: center;}
-    
+
+    .divPai .certificado {margin-left: 10px;}
 
     #projetos div {display: flex; 
     flex-flow: row nowrap;
@@ -45,6 +48,10 @@
     #divPai {display: flex;
     padding-left: 0;
     justify-content: center;}
+
+    .certificado:hover {width: 240px;}
+
+    .tecnologia:hover {width: 430px;}
 
     #projetos {display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -96,7 +103,7 @@
 
     .tecnologia:hover {width: 200px;}
 
-    #divPai {display: grid;
+    .divPai {display: grid;
     padding: 6px;
     height: 150px;
     border-top-left-radius: 0px;

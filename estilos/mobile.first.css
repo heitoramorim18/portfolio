@@ -1,17 +1,20 @@
 * {margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif;}
 
 :root {
-    --bodyMain: {}
-    --header: {}
-    --secao: {}
-    --elementos: {}
-    --caixaProjetos: {}
-    --titulos: {}
+    --bodyMain: rgba(0, 51, 85, 0.329);
+    --header: rgb(53, 53, 255);
+    --secao: rgb(250, 243, 243);
+    --divPai: rgb(196, 196, 247);
+    --divItem: rgb(229, 229, 253);;
+    --caixaProjetos: rgba(196, 196, 247, 0.253);
+    --titulos: rgb(53, 53, 255);
 }
 
+h1, h2, h3 {color: var(--titulos);}
 
-header {border: 1px solid black;
-background-color: white;
+body {background-color: var(--bodyMain);}
+
+header {background-color: var(--header);
 position: sticky;
 top: 0;
 z-index: 1000;
@@ -23,9 +26,11 @@ margin-right: 10px;
 cursor: pointer;
 transition: background-color 0.2s ease;}
 
-header i:hover {background-color: gray;}
+header i:hover {background-color: rgb(201, 201, 201);}
 
-#apresentacao i {font-size: 30px;}
+#apresentacao {margin-top: 0px;}
+
+#apresentacao i {font-size: 30px; margin-top: 20px;}
 
 #apresentacao i:hover {font-size: 35px;}
 
@@ -50,8 +55,6 @@ border-radius: 50%;
 border: 1px dashed black;
 transition: width 0.3s ease, height 0.3s ease;}
 
-#profil:hover {width: 210px; height: 210px;}
-
 h1 {font-size: 25px;}
 
 #nome {margin-top: 30px;}
@@ -61,39 +64,41 @@ margin-bottom: 10px;}
 
 h3 {margin-bottom: 5px;}
 
-section {border: 1px solid black;
+section {box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.466);
 border-radius: 5px;
 margin: 20px 0px;
-padding: 10px;}
+padding: 10px;
+background-color: var(--secao);}
 
 .certificado {width: 235px;
 padding: 10px;
-border: 1px solid black;
-border-radius: 5px;}
-
-.certificado:hover {width: 240px;}
+border-radius: 5px;
+background-color: var(--divItem);}
 
 .tecnologia {padding: 5px;
-width: 93%;}
-
-.tecnologia:hover {width: 430px;}
+width: 93%;
+background-color: var(--divItem);}
 
 div {margin: 5px 0px;
 border-radius: 5px;
 border: 1px solid black;
 transition: width 0.3s ease, height 0.3s ease;}
 
-#divPai {display: flex;
+.divPai {display: flex;
 flex-flow: column nowrap;
 align-items: center;
 margin: 0px -10px;
 padding-left: 10px;
-background-color: white;
-border-top-left-radius: none;}
+background-color: var(--divPai);
+border: none;}
+
+.divPai .certificado {align-self: start;}
 
 .img {width: 100%;
 height: 200px;
-cursor: pointer;}
+cursor: pointer;
+text-align: center;
+border: none;}
 
 #projetos {display: grid;}
 
@@ -101,7 +106,13 @@ cursor: pointer;}
 flex-flow: column nowrap;
 text-align: center;
 align-items: center;
-margin-top: 0px;}
+margin-top: 0px;
+cursor: pointer;}
+
+.projeto {margin-bottom: 20px;
+background-color: var(--caixaProjetos);
+border: none;
+box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);}
 
 #projetos div article {padding: 5px;
 width: 90%;}
