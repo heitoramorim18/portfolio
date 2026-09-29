@@ -27,7 +27,7 @@
 
     .img:hover {width: 240px;}
 
-    #todosOsProjetos {margin-left: 0;}
+    #todosOsProjetos {margin-left: 0; width: 100%;}
 }
 
 
