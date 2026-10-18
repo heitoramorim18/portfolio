@@ -66,6 +66,7 @@ ul {margin-left: 10px; list-style-type: none;}
 li {padding: 10px 0px}
 
 p {font-size: 14px;
+text-indent: 20px;
 color: var(--texto);}
 
 #apresentacao ul {display: flex; 
@@ -134,9 +135,15 @@ cursor: pointer;
 text-align: center;
 border: none;}
 
-#img1, #img2, #img3, #img4 {background-image: url(../imagens-icons/foto.webp);
-background-position: center;
+#img2, #img3, #img4 {background-position: center;
 background-size: cover;}
+
+#img1 {background-image: url(../imagens-icons/projeto1.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;}
+
+#img2, #img3, #img4 {background-image: url(../imagens-icons/foto.webp);}
 
 #projetos {display: grid;}
 
