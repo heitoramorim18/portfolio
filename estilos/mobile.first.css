@@ -66,8 +66,9 @@ ul {margin-left: 10px; list-style-type: none;}
 li {padding: 10px 0px}
 
 p {font-size: 14px;
-text-indent: 20px;
 color: var(--texto);}
+
+#projetos p {text-indent: 20px;}
 
 #apresentacao ul {display: flex; 
 justify-content: center;
