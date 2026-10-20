@@ -10,9 +10,10 @@
     <link rel="shortcut icon" href="imagens-icons/favcon.webp" type="image/x-icon">
 </head>
 
-<body class="escuro">
+
+<body>
     <header>
-        <span>
+        <span id="lua">
             <i id="moon" class="fa-solid fa-moon"></i>
         </span>
     </header>
@@ -137,6 +138,13 @@
         </section>
     </main>
 
-    <script src="script/codigo.js"></script>
+
+    <script>
+        const botaoLua = document.getElementById('lua')
+        const bodySite = document.body
+
+
+        botaoLua.addEventListener('click', () => bodySite.classList.toggle('temaEscuro'))
+    </script>
 </body>
 </html>

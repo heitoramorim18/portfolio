@@ -3,9 +3,11 @@
 :root {
     --bodyMain: rgb(171, 188, 199);
     --moon: white;
+    --moonHover: rgb(201, 201, 201);
     --header: rgb(53, 53, 255);
     --icone: rgb(53, 53, 255);
     --secao: rgb(250, 243, 243);
+    --abreviacao: rgb(53, 53, 255);
     --divPai: rgb(196, 196, 247);
     --divItem: rgb(229, 229, 253);
     --borda: rgb(53, 53, 255);
@@ -16,20 +18,23 @@
     --texto: black;
 }
 
-body.escuro {
-    --bodyMainEscuro: rgb(7, 7, 7);
-    --moonEscuro: rgb(0, 255, 255);
-    --headerEscuro: rgb(0, 0, 0);
-    --iconeEscuro: rgb(0, 255, 255);
-    --secaoEscuro: rgb(27, 27, 27);
-    --divPaiEscuro: rgb(43, 42, 42);
-    --divItemEscuro: rgb(26, 53, 54);
-    --bordaEscuro: rgb(0, 255, 255);
-    --sombraEsuro: rgba(0, 255, 255, 0.281);
-    --caixaProjetosEscuro: rgb(36, 35, 35);
-    --titulosEscuro: rgb(0, 255, 255);
-    --titulo4Escuro: white;
-    --textoEscuro: white;
+
+.temaEscuro {
+    --bodyMain: rgb(7, 7, 7);
+    --moon: rgb(0, 255, 255);
+    --moonHover: rgb(0, 92, 92);
+    --header: rgb(0, 0, 0);
+    --icone: rgb(0, 255, 255);
+    --secao: rgb(27, 27, 27);
+    --abreviacao: rgb(0, 255, 255);
+    --divPai: rgb(15, 15, 15);
+    --divItem: rgb(26, 53, 54);
+    --borda: rgb(0, 255, 255);
+    --sombra: rgba(0, 255, 255, 0.144);
+    --caixaProjetos: rgb(36, 35, 35);
+    --titulos: rgb(0, 255, 255);
+    --titulo4: white;
+    --texto: white;
 }
 
 
@@ -50,13 +55,13 @@ margin-right: 10px;
 cursor: pointer;
 transition: background-color 0.2s ease;}
 
-header i:hover {background-color: rgb(201, 201, 201);}
+header i:hover {background-color: var(--moonHover);}
 
 strong {color: var(--titulos);}
 
 abbr {text-decoration: none;
 font-weight: bold;
-color: var(--header)}
+color: var(--abreviacao)}
 
 #apresentacao {margin-top: 0px;}
 

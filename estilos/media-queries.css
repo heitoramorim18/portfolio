@@ -57,6 +57,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 10% 1fr;}
 
+    #projetos a {text-decoration: none;
+    margin-bottom: 20px;
+    height: 225px;}
+
     #projetos div {margin-right: 5px; height: 220px;}
 
     .img {border-top-right-radius: 0px;
@@ -94,11 +98,11 @@
     margin-right: 35px;}
 
     #formacao {grid-area: 1/2/1/3;
-    margin-top: 0px;
+    margin-top: 3px;
     margin-right: 10px;
     height: 200px;}
 
-    #skills {margin-top: 0px;
+    #skills {margin-top: 3px;
     height: 200px;}
 
     .tecnologia {width: 90%;}
